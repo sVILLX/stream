@@ -94,6 +94,7 @@ st.markdown(":violet[**DATAFRAME PARA EL MANEJO DE INFORMACIÓN DE CLIENTES**]")
 st.markdown(":blue[Este **DataFrame** contiene información de varias personas, "
             "las ciudades donde viven, así como sus ganancias a lo largo de un año. "
             "En esta aplicación se generan los siguientes gráficos:]")
+st.markdown(":blue[ganan_selected])
 st.markdown(":blue[*- **Histograma** para cada uno de los Meses del **DataFrame**.*]")
 st.markdown(":blue[*- **Ganancias** para cada persona del **DataFrame**.*]")
 st.markdown(":blue[*- **Matriz de Correlación** para los Meses Seleccionados del **DataFrame**.*]")
@@ -134,8 +135,6 @@ colum_der.subheader('Ganancias')
 
 #Inicialización del gráfico
 fig2, ax2 = plt.subplots()
-
-print(ganan_selected)
 
 #Generación del gráfico
 if ganan_selected == 'Iñaki González':
