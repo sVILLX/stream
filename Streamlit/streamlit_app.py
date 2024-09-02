@@ -94,7 +94,6 @@ st.markdown(":violet[**DATAFRAME PARA EL MANEJO DE INFORMACIÓN DE CLIENTES**]")
 st.markdown(":blue[Este **DataFrame** contiene información de varias personas, "
             "las ciudades donde viven, así como sus ganancias a lo largo de un año. "
             "En esta aplicación se generan los siguientes gráficos:]")
-st.markdown(":blue[ganan_selected])
 st.markdown(":blue[*- **Histograma** para cada uno de los Meses del **DataFrame**.*]")
 st.markdown(":blue[*- **Ganancias** para cada persona del **DataFrame**.*]")
 st.markdown(":blue[*- **Matriz de Correlación** para los Meses Seleccionados del **DataFrame**.*]")
@@ -104,6 +103,8 @@ st.markdown(":violet[El **DataFrame** es el siguiente:]")
 st.dataframe(datos_df)
 st.divider()
 
+#----- Mostrar nombre de persona seleccionada ---------------------
+st.markdown(":blue [vars_per])
 
 #------------------------------------------------------------------
 #----- Configuración de los Elementos del Panel Central -----------
