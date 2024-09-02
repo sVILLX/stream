@@ -103,7 +103,7 @@ st.markdown(":violet[El **DataFrame** es el siguiente:]")
 st.dataframe(datos_df)
 st.divider()
 
-st.subtitle(ganan_selected)
+st.subheader(ganan_selected)
 
 #------------------------------------------------------------------
 #----- Configuración de los Elementos del Panel Central -----------
