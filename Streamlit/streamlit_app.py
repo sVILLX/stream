@@ -135,6 +135,8 @@ colum_der.subheader('Ganancias')
 #Inicialización del gráfico
 fig2, ax2 = plt.subplots()
 
+print(ganan_selected)
+
 #Generación del gráfico
 if ganan_selected == 'Iñaki González':
     periodo_df = datos_df.iloc[0]
