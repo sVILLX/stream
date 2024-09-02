@@ -186,3 +186,8 @@ sns.heatmap(df_corr, annot = anotacion, fmt='.2f', cmap = color_selected)
 #Renderización del gráfico
 st.pyplot(fig3)
 st.divider()
+
+#----- Lectura de los Datos Desde el Archivo CSV ------------------
+ganancias_id = pd.read_csv('./Datos/Ganancias_id.csv')
+
+st.dataframe(ganancias_id)
