@@ -103,6 +103,8 @@ st.markdown(":violet[El **DataFrame** es el siguiente:]")
 st.dataframe(datos_df)
 st.divider()
 
+st.markdown(ganan_selected)
+
 #----- Mostrar nombre de persona seleccionada ---------------------
 st.markdown(":blue ganan_selected)
 
