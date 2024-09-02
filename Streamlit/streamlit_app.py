@@ -104,7 +104,7 @@ st.dataframe(datos_df)
 st.divider()
 
 #----- Mostrar nombre de persona seleccionada ---------------------
-st.markdown(":blue vars_per[0])
+st.markdown(":blue ganan_selected)
 
 #------------------------------------------------------------------
 #----- Configuración de los Elementos del Panel Central -----------
